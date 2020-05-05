@@ -1,0 +1,11 @@
+form {
+  font-size: 30px;
+  text-align: center;
+}
+div {
+  color: white;
+  background-color: teal;
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+}
