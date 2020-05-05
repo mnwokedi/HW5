@@ -8,12 +8,12 @@
     <title>Homework 5</title>
   </head>
   <body>
-    <div>
+    <div id="head">
       <h1>MidTerm Exam</h1>
       <p>Find all prime numbers between two numbers</p>
     </div>
     <form class="form">
-      <label for="Input Start Value">Start Value</label>
+      <label for="Input Start Value">Number 1</label>
       <input
         type="number"
         name="Start Value"
@@ -23,15 +23,14 @@
         min="2"
         max="100"
         oninput="checkInput()"
-        <label for="Input End Value">End Value</label>
+        <label for="Input End Value">Number 2</label>
         <input type="number" name="End Value" class="number-input" id="number2" value=10 min=2 max=100 oninput="checkInput()">
 
         <button type="submit" class="submit-button" >Submit</button>
     </form>
-    <button id="reset"><a href="index.html">Reset</a>
-    </button>
-    <!-- <div id="output">Prime Numbers List</div> -->
-    <!-- <div id="output2">Number of Prime Numbers</div> -->
+   
+    <div id="output"></div>
+    <div id="output2"></div>
   
       <script src="HW5JS.js"></script>
 </body>

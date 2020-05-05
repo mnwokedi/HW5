@@ -1,5 +1,5 @@
 form {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
 }
 div {
@@ -8,4 +8,5 @@ div {
   margin: 50px;
   padding: 50px;
   text-align: center;
+  font-size: 30px;
 }
